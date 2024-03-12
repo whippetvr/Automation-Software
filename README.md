@@ -1,6 +1,6 @@
 # Automation-Software
 
-This project content is Fluel Tanks Automation Software written by C#.
+This project content is Fuel Tanks Automation Software written by C#.
 
 Autiomation means fluel level data reading (Level, Temperature, Volume ..) from tanks using SaabTankRadar equipments which provided DA OPC Server.
 Data reading occurs by OPC client which worked at separated thread.
