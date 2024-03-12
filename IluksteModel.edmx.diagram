@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7c7da094d46f49b5bbae37badca9dd7e" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="IluksteModel.CoefDensity" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.CoefTank" Width="1.5" PointX="11.5" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.Events" Width="1.5" PointX="11.625" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.OperationData" Width="1.5" PointX="8.5" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.OperationName" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.OperationRegister" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.OperationState" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.Partners" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.Persons" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.SaabCalculations" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.SaabData" Width="1.5" PointX="11.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.Tanks" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.Users" Width="1.5" PointX="7.375" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="IluksteModel.ZoneTank" Width="1.5" PointX="11.625" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="IluksteModel.FK_Events_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="IluksteModel.FK_OperData_OperState" ManuallyRouted="true" >
+          <ConnectorPoint PointX="6.75" PointY="7.8667999211794664" />
+          <ConnectorPoint PointX="9.46875" PointY="7.8667999211794664" />
+          <ConnectorPoint PointX="9.46875" PointY="7.1244108072916656" />
+        </AssociationConnector>
+        <AssociationConnector Association="IluksteModel.FK_OperReg_OperName" ManuallyRouted="true" >
+          <ConnectorPoint PointX="4.5" PointY="1.392888335838512" />
+          <ConnectorPoint PointX="6.572916666666667" PointY="1.392888335838512" />
+          <ConnectorPoint PointX="6.572916666666667" PointY="2.302153150826709" />
+          <ConnectorPoint PointX="6" PointY="2.302153150826709" />
+          <ConnectorPoint PointX="6" PointY="2.75" />
+        </AssociationConnector>
+        <AssociationConnector Association="IluksteModel.FK_OperReg_Persons" ManuallyRouted="false" />
+        <AssociationConnector Association="IluksteModel.FK_OperReg_Persons1" ManuallyRouted="false" />
+        <AssociationConnector Association="IluksteModel.FK_Persons_Partners" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="IluksteModel.Params" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="IluksteModel.FK_OperationRegister_OperationData" />
+        <AssociationConnector Association="IluksteModel.FK_Tanks_OperationRegister" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
